@@ -1,0 +1,27 @@
+digraph Tree {
+0 [label="outlook <= 0.5000\ngini = 0.459183673469\nsamples = 14", shape="box"] ;
+1 [label="gini = 0.0000\nsamples = 4\nvalue = [ 0.  4.]", shape="box"] ;
+0 -> 1 ;
+2 [label="humidity <= 0.5000\ngini = 0.5\nsamples = 10", shape="box"] ;
+0 -> 2 ;
+3 [label="outlook <= 1.5000\ngini = 0.32\nsamples = 5", shape="box"] ;
+2 -> 3 ;
+4 [label="wind <= 0.5000\ngini = 0.5\nsamples = 2", shape="box"] ;
+3 -> 4 ;
+5 [label="gini = 0.0000\nsamples = 1\nvalue = [ 1.  0.]", shape="box"] ;
+4 -> 5 ;
+6 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  1.]", shape="box"] ;
+4 -> 6 ;
+7 [label="gini = 0.0000\nsamples = 3\nvalue = [ 3.  0.]", shape="box"] ;
+3 -> 7 ;
+8 [label="wind <= 0.5000\ngini = 0.32\nsamples = 5", shape="box"] ;
+2 -> 8 ;
+9 [label="outlook <= 1.5000\ngini = 0.5\nsamples = 2", shape="box"] ;
+8 -> 9 ;
+10 [label="gini = 0.0000\nsamples = 1\nvalue = [ 1.  0.]", shape="box"] ;
+9 -> 10 ;
+11 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  1.]", shape="box"] ;
+9 -> 11 ;
+12 [label="gini = 0.0000\nsamples = 3\nvalue = [ 0.  3.]", shape="box"] ;
+8 -> 12 ;
+}
